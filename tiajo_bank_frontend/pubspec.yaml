@@ -49,10 +49,12 @@ dev_dependencies:
 
 flutter_native_splash:
   color: "#168C62"
-  image: assets/img/tiajo_bank.png
+  image: assets/img/logo.png
+  android_gravity: center
+
   android_12:
     color: "#168C62"
-    image: assets/img/tiajo_bank.png
+    image: assets/img/logo.png
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -66,8 +68,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  #assets:
-  # - lib/assets/img/tiajo_bank.png
+  assets:
+   - assets/img/logo.png
   # - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
